@@ -20,7 +20,7 @@ for word in st.split():
     if len(word) % 2 == 0:
         print(word)
     else:
-        continue
+        pass
 ```
 
 # Creating a List of The First Letters of Every Word In a String
@@ -40,7 +40,7 @@ for i in range(1, 101):
     elif i % 5 == 0:
         print(i, "Buzz")
     else:
-        continue
+        pass
 ```
 
 **Here we are checking if the number is a multiple of 3 and 5.**
