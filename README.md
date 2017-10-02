@@ -3,6 +3,8 @@ This repo is just a collection of some sample problems in Python and how I'd go 
 
 Nothing revolutionary by any means.
 
+Just messing about with Python.
+
 # Words of a String Starting With a Certain Letter
 ```python
 st = "This is a sample sentence that is trying it's best to extend itself."
