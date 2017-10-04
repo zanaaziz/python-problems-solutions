@@ -43,16 +43,16 @@ for i in range(1, 101):
         pass
 ```
 
+Here we are checking if the number is a multiple of 3 and 5.
+
 # Removing Multiple Characters From a String
 ```python
-text = "“The brown fox jumped over the rain deer because he felt like it.”"
+text = '“The brown fox jumped over the rain deer because he felt like it.”'
 
 for c in ['“', '”']:
     if c in text:
         text = text.replace(c, "")
 ```
-
-**Here we are checking if the number is a multiple of 3 and 5.**
 
 # Getting The First Letter of Every Word In a String
 ```python
@@ -79,14 +79,14 @@ def multiply(l):
     total = 1
 
     for e in l:
-        total *= e
+        total = e
 
     return total
 
 print(multiply([2, 2, 2]))
 ```
 
-**Here we are multiplying all the elements by each other.**
+Here we are multiplying all the elements by each other.
 
 # Checking For a Palindrome In a String
 ```python
@@ -97,7 +97,7 @@ def palindrome(s):
 print(palindrome("bob"))
 ```
 
-**A palindrome is a word that reads the same way backwards.**
+A palindrome is a word that reads the same way backwards.
 
 # Checking For a Pangram In a String
 ```python
@@ -110,4 +110,4 @@ def ispangram(s, alphabet=string.ascii_lowercase):
 print(ispangram("The quick brown fox jumps over the lazy dog"))
 ```
 
-**A pangram is a sentence that contains all the letters of the alphabet at least once.**
+A pangram is a sentence that contains all the letters of the alphabet at least once.
