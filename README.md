@@ -49,7 +49,7 @@ Here we are checking if the number is a multiple of 3 and 5.
 ---
 # Removing Multiple Characters From a String
 ```python
-text = '“The brown fox jumped over the rain deer because he felt like it.”'
+text = '“The brown fox jumped over the reindeer because he felt like it.”'
 
 for c in ['“', '”']:
     if c in text:
