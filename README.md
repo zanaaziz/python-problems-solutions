@@ -4,7 +4,7 @@ This repo is just a collection of some sample problems in Python and how I'd go 
 Nothing revolutionary by any means.
 
 Just messing about with Python.
-
+---
 # Words of a String Starting With a Certain Letter
 ```python
 st = "This is a sample sentence that is trying it's best to extend itself."
@@ -12,7 +12,7 @@ for word in st.lower().split():
     if word[0] == "t":
         print(word)
 ```
-
+---
 # Counting The Letters In a Word Within a String
 ```python
 st = 'Print every word in this sentence that has an even number of letters'
@@ -22,14 +22,14 @@ for word in st.split():
     else:
         pass
 ```
-
+---
 # Creating a List of The First Letters of Every Word In a String
 ```python
 st = 'This should get the first letter of every word in this string.'
 first_letters = [c[0] for c in st.split()]
 print(first_letters)
 ```
-
+---
 # Iterating Through a Range & Checking For a Certain Type of Number
 ```python
 for i in range(1, 101):
@@ -44,7 +44,7 @@ for i in range(1, 101):
 ```
 
 Here we are checking if the number is a multiple of 3 and 5.
-
+---
 # Removing Multiple Characters From a String
 ```python
 text = '“The brown fox jumped over the rain deer because he felt like it.”'
@@ -53,14 +53,14 @@ for c in ['“', '”']:
     if c in text:
         text = text.replace(c, "")
 ```
-
+---
 # Getting The First Letter of Every Word In a String
 ```python
 st = 'Create a list of the first letters of every word in this string'
 first_letters = [c[0] for c in st.split()]
 print(first_letters)
 ```
-
+---
 # Getting Uppercase & Lowercase Words In a String
 ```python
 def up_low(s):
@@ -72,7 +72,7 @@ def up_low(s):
 
 up_low("This is Zana's string in Python.")
 ```
-
+---
 # Modifying Elements Within a List
 ```python
 def multiply(l):
@@ -87,7 +87,7 @@ print(multiply([2, 2, 2]))
 ```
 
 Here we are multiplying all the elements by each other.
-
+---
 # Checking For a Palindrome In a String
 ```python
 def palindrome(s):
@@ -98,7 +98,7 @@ print(palindrome("bob"))
 ```
 
 A palindrome is a word that reads the same way backwards.
-
+---
 # Checking For a Pangram In a String
 ```python
 import string
