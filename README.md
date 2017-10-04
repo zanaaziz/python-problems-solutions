@@ -4,6 +4,7 @@ This repo is just a collection of some sample problems in Python and how I'd go 
 Nothing revolutionary by any means.
 
 Just messing about with Python.
+
 ---
 # Words of a String Starting With a Certain Letter
 ```python
@@ -44,6 +45,7 @@ for i in range(1, 101):
 ```
 
 Here we are checking if the number is a multiple of 3 and 5.
+
 ---
 # Removing Multiple Characters From a String
 ```python
@@ -87,6 +89,7 @@ print(multiply([2, 2, 2]))
 ```
 
 Here we are multiplying all the elements by each other.
+
 ---
 # Checking For a Palindrome In a String
 ```python
@@ -98,6 +101,7 @@ print(palindrome("bob"))
 ```
 
 A palindrome is a word that reads the same way backwards.
+
 ---
 # Checking For a Pangram In a String
 ```python
