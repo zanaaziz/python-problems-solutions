@@ -43,6 +43,15 @@ for i in range(1, 101):
         pass
 ```
 
+# Removing Multiple Characters From a String
+```python
+text = "“The brown fox jumped over the rain deer because he felt like it.”"
+
+for c in ['“', '”']:
+    if c in text:
+        text = text.replace(c, "")
+```
+
 **Here we are checking if the number is a multiple of 3 and 5.**
 
 # Getting The First Letter of Every Word In a String
